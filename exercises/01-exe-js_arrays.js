@@ -4,28 +4,32 @@
 const favorites = ['javascript', 'html', 'css'];
 
 // iterate over it and console.log each element
-// ... your code here
+
+for (let i=0; i< favorites.length; i++){ 
+console.log(favorites[i]);
+}
+
 
 // remove first element
 // ... your code here
-console.log(favorites); // => [ 'html', 'css' ]
+//console.log(favorites); // => [ 'html', 'css' ]
 
 // remove last element
 // ... your code here
-console.log(favorites); // => [ 'html' ]
+//console.log(favorites); // => [ 'html' ]
 
 // add 'react' on the first place
 // ... your code here
-console.log(favorites); // => [ 'react', 'html' ]
+//console.log(favorites); // => [ 'react', 'html' ]
 
 // add 'node' to the last place
 // ... your code here
-console.log(favorites); // => [ 'react', 'html', 'node' ]
+//console.log(favorites); // => [ 'react', 'html', 'node' ]
 
 // remove element in the position 2 and add 'express'
 // ... your code here
-console.log(favorites); // => [ 'react', 'express', 'node' ]
+//console.log(favorites); // => [ 'react', 'express', 'node' ]
 
 // remove elements in the positions 2 and 3 and add 'mongodb'
 // ... your code here
-console.log(favorites); // => [ 'react', 'mongodb' ]
+//console.log(favorites); // => [ 'react', 'mongodb' ]
